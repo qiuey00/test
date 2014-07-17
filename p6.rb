@@ -13,7 +13,7 @@ def square_of_sums(n)
 end
 
 def sum(n)
-  (n*(n+1)/2).to_i
+  ((n+1)*n/2).to_i
 end
 
 (100..100).each do |n|
