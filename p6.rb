@@ -9,11 +9,7 @@ def sum_of_squares(n)
 end
 
 def square_of_sums(n)
-  sum(n)*sum(n)
-end
-
-def sum(n)
-  (n*(n+1)/2).to_i
+  (n**4 + 2*n**3 + n**2)/4
 end
 
 (100..100).each do |n|
